@@ -3,12 +3,16 @@
 function GoHome() {
     const btn_home = document.querySelector(".btn-home");
 
-    btn_home.addEventListener("click", (e) => {
+    if (btn_home) {
+        btn_home.addEventListener("click", (e) => {
 
-        e.preventDefault();
-        window.location.href = "index.html";
+            e.preventDefault();
+            window.location.href = "index.html";
 
-    })
+        })
+    }
+
+
 }
 
 document.addEventListener("DOMContentLoaded", GoHome())

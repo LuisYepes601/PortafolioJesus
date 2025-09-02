@@ -1,8 +1,8 @@
 :root {
 
-    --morado: #6f05ec;
+    --morado: #33A1E0;
     --negro: #22262b;
-    --grid-claro: #787879;
+    --grid-claro: #154D71;
     --grid-mas-claro: #d4d4d4;
     --nombre-persona: #0e0f13;
     --gris-oscuro: #26272e;
@@ -12,7 +12,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: roboto;
+    font-family: Montserrat;
     scroll-behavior: smooth;
 
 }
@@ -460,8 +460,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 270px;
-    max-width: 100%;
+    width: 100%;
     gap: 2rem;
     padding: 2rem;
     border-radius: 20px;
